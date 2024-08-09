@@ -78,17 +78,29 @@
         </div>
     </section>
 
+    <!-- contact form -->
+
     <section id="form-details">
         <form id="contactForm" action="" method="POST">
-            <span style="text-transform: uppercase;">Leave A Message</span>
+            <span style="text-transform: uppercase; color: black;">Leave A Message</span>
             <h2>We love to hear from you</h2>
+            
             <input type="text" id="name" name="name" placeholder="Your Name">
+            <span id="nameError" class="error-message"></span>
+            
             <input type="email" id="email" name="email" placeholder="E-mail">
+            <span id="emailError" class="error-message"></span>
+            
             <input type="text" id="subject" name="subject" placeholder="Subject">
+            <span id="subjectError" class="error-message"></span>
+            
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            <span id="messageError" class="error-message"></span>
+            
             <button class="normal" type="submit">Submit</button>
         </form>
     </section>
+    
     
   
     <footer class="section-p1">
