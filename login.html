@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo (1).png" alt=""></a>
+
+        
+        
+    </section>
+
+
+
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-toggle" onclick="toggleForm('login')">Login</button>
+                <button id="register-toggle" onclick="toggleForm('register')">Register</button>
+            </div>
+
+            <form id="login-form">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="E-mail" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <form id="register-form">
+                <h2>Register</h2>
+                <input type="text" id="register-name" placeholder="Your Name" required>
+                <input type="email" id="register-email" placeholder="E-mail" required>
+                <input type="password" id="register-password" placeholder="Password" required>
+                <input type="password" id="register-confirm-password" placeholder="Confirm Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo (1).png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong>+91 8520369875</p>
+            <p><strong>Hours:</strong>10:00 - 18:00, Mon- Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f" title="Login with Facebook"></a>
+                    <a href="https://twitter.com" target="_blank" class="fab fa-twitter" title="Login with Twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram" title="Login with Instagram"></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My order</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured payment gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <!-- <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2024 cara online store </p>
+        </div> -->
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
